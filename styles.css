@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('./Assets/sunny.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+form {
+    
+    border: 10px teal groove;
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+    
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+button {
+    background-color: cadetblue;
+    color: azure;
+    border-radius: 15px;
+}
+
+input {
+    background-color: whitesmoke;
+
+}
+
+.weather {
+    border: 20px teal groove;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: cadetblue;
+    width: 600px;
+}
+
+.weather h1 {
+    
+    
+}
+
+.weather h2 {
+    
+}
+
+.weather div {
+    
+   
+}
+
+.weather img {
+  
+}
+
+#temp {
+    
+}
+
+#wind {
+    
+    
+}
+
