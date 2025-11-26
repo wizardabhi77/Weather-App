@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="weather.js"></script>
+    <script src="weather.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="">
+        <label for="location">LOCATION:</label>
+        <input type="text" name="location" id="location">
+        <button>GET CURRENT WEATHER</button>
+    </form>
+    <div class="weather"></div>
 </body>
 </html>
